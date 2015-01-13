@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.image.Image?>
+
+<BorderPane xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+	<center>
+		<ImageView fx:id="image" fitHeight="250.0" fitWidth="472.0"
+			pickOnBounds="true" preserveRatio="true" BorderPane.alignment="CENTER">
+			<image>
+				<Image url="@/dad/recetapp/ui/images/recetapp-inicio.png" />
+			</image>
+		</ImageView>
+	</center>
+</BorderPane>

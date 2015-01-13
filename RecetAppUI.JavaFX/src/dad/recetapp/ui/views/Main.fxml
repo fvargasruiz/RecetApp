@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.*?>
+<?import javafx.geometry.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.BorderPane?>
+<?import dad.recetapp.ui.components.CategoriasPane?>
+<?import dad.recetapp.ui.components.RecetasPane?>
+
+
+<BorderPane xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8">
+	<center>
+		<TabPane prefHeight="480.0" prefWidth="640.0"
+			tabClosingPolicy="UNAVAILABLE" BorderPane.alignment="CENTER">
+			<tabs>
+				<Tab text="Recetas">
+					<content>
+						<RecetasPane />
+					</content>
+				</Tab>
+				<Tab text="Categorias">
+					<content>
+						<CategoriasPane />
+					</content>
+				</Tab>
+				<Tab text="Ingredientes">
+					<content>
+						<AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0"
+							prefWidth="200.0" />
+					</content>
+				</Tab>
+				<Tab text="Medidas">
+					<content>
+						<AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0"
+							prefWidth="200.0" />
+					</content>
+				</Tab>
+				<Tab text="Anotaciones">
+					<content>
+						<AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0"
+							prefWidth="200.0" />
+					</content>
+				</Tab>
+			</tabs>
+		</TabPane>
+	</center>
+</BorderPane>

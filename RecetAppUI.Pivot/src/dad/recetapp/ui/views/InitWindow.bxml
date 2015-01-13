@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui:InitWindow title="Iniciando" maximized="true"
+    xmlns:bxml="http://pivot.apache.org/bxml"
+    xmlns:content="org.apache.pivot.wtk.content"
+    xmlns:ui="dad.recetapp.ui.controllers"
+    xmlns="org.apache.pivot.wtk">
+    
+	<BoxPane orientation="VERTICAL" styles="{verticalAlignment:'center',horizontalAlignment:'center'}">
+		<Label bxml:id="etiqueta" styles="{font:'Arial bold 24', color:'#0000ff',horizontalAlignment:'center', verticalAlignment:'center'}" />
+		<PushButton bxml:id="boton" buttonData="Púlsame" />
+	</BoxPane>
+	
+</ui:InitWindow>
